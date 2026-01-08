@@ -1,4 +1,4 @@
-# 🚨 SentinelML — Automated Model Observability & Drift Detection
+#  SentinelML — Automated Model Observability & Drift Detection
 
 > **Production-grade ML observability system for detecting data drift, monitoring model health, and ensuring reliability of deployed machine learning models.**
 
@@ -8,7 +8,7 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 **SentinelML** is an end-to-end **Model Observability & Drift Detection system** built to simulate **real-world production ML workflows**.
 
@@ -18,20 +18,20 @@ This project reflects **industry-grade MLOps practices** used in large-scale ML 
 
 ---
 
-## 🎯 Key Features
+##  Key Features
 
-✅ Real-time ML inference via REST API
-✅ Automatic logging of live prediction data
-✅ Data drift detection using statistical metrics
-✅ Interactive drift reports (HTML)
-✅ Scheduled monitoring jobs
-✅ Prometheus-ready metrics
-✅ Grafana dashboard support
-✅ Clean, modular, production-ready architecture
+ Real-time ML inference via REST API
+ Automatic logging of live prediction data
+ Data drift detection using statistical metrics
+ Interactive drift reports (HTML)
+ Scheduled monitoring jobs
+ Prometheus-ready metrics
+ Grafana dashboard support
+ Clean, modular, production-ready architecture
 
 ---
 
-## 🧠 Why This Project Matters
+##  Why This Project Matters
 
 In production, **models fail silently** — not by crashing, but by **slowly drifting away from reality**.
 
@@ -46,7 +46,7 @@ This project focuses on **model trust, reliability, and responsible AI** — not
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```
 Client
@@ -83,7 +83,7 @@ HTML Drift Reports
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 SentinelML-Automated-Model-Observability/
@@ -120,7 +120,7 @@ SentinelML-Automated-Model-Observability/
 
 ---
 
-## 🚀 How It Works (Step-by-Step)
+##  How It Works (Step-by-Step)
 
 ### 1️⃣ Model Inference
 
@@ -194,7 +194,7 @@ Interactive HTML reports include:
 * Data quality insights
 
 
-## 🧪 Advanced Concepts Demonstrated
+##  Advanced Concepts Demonstrated
 
 * Data Drift vs Concept Drift
 * Production inference logging
@@ -204,7 +204,7 @@ Interactive HTML reports include:
 * Responsible & trustworthy AI
 
 
-## 💼 Use Cases
+##  Use Cases
 
 * Production ML monitoring
 * Enterprise ML pipelines
@@ -227,5 +227,6 @@ AI & MLOps Enthusiast
 If you’re a recruiter, engineer, or student exploring **modern MLOps**, SentinelML demonstrates how **robust ML systems are built, monitored, and trusted in the real world**.
 
 ⭐ **Star this repo if you find it useful!**
+
 
 
