@@ -1,0 +1,17 @@
+{
+  "title": "SentinelML - Model Observability",
+  "panels": [
+    {
+      "type": "stat",
+      "title": "Live Prediction Volume",
+      "targets": [
+        {
+          "expr": "data_drift_score",
+          "refId": "A"
+        }
+      ]
+    }
+  ],
+  "schemaVersion": 30,
+  "version": 1
+}
