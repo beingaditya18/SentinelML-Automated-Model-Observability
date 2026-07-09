@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+pandas
+numpy
+scikit-learn
+joblib
+evidently
+prometheus-client
+pydantic
+pydantic-settings
+pytest
+httpx

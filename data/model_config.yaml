@@ -1,0 +1,39 @@
+model:
+  name: "SentinelML Demographics Classifier"
+  version: "1.0.0"
+
+features:
+  numerical:
+    - name: "age"
+      impute_default: 38
+    - name: "education-num"
+      impute_default: 9
+    - name: "capital-gain"
+      impute_default: 0
+    - name: "capital-loss"
+      impute_default: 0
+    - name: "hours-per-week"
+      impute_default: 40
+  categorical:
+    - name: "workclass"
+      impute_default: "Private"
+    - name: "education"
+      impute_default: "HS-grad"
+    - name: "marital-status"
+      impute_default: "Married-civ-spouse"
+    - name: "occupation"
+      impute_default: "Craft-repair"
+    - name: "relationship"
+      impute_default: "Husband"
+    - name: "race"
+      impute_default: "White"
+    - name: "sex"
+      impute_default: "Male"
+    - name: "native-country"
+      impute_default: "United-States"
+
+target:
+  name: "income"
+  labels:
+    0: "<=50K"
+    1: ">50K"

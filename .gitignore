@@ -1,0 +1,76 @@
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+# ================================
+# Virtual Environments
+# ================================
+venv/
+env/
+.venv/
+
+# ================================
+# Jupyter & Notebooks
+# ================================
+.ipynb_checkpoints/
+
+# ================================
+# Environment Variables / Secrets
+# ================================
+.env
+.env.*
+
+# ================================
+# OS / Editor Files
+# ================================
+.DS_Store
+Thumbs.db
+*.swp
+*.log
+
+# ================================
+# Model Artifacts (Optional)
+# Uncomment if you don't want to version models
+# ================================
+# model/*.pkl
+
+# ================================
+# Data (Generated / Runtime)
+# ================================
+data/live/*
+data/drift_reports/*
+
+# Keep folder structure
+!data/live/.gitkeep
+!data/drift_reports/.gitkeep
+
+# ================================
+# Reports (Auto-generated HTML)
+# ================================
+*.html
+
+# ================================
+# Prometheus / Grafana runtime
+# ================================
+prometheus/data/
+grafana/data/
+
+# ================================
+# Testing / Coverage
+# ================================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ================================
+# Misc
+# ================================
+*.tmp
+*.bak
